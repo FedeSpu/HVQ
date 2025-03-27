@@ -105,6 +105,8 @@ conda env create --name hvq --file environment.yml
 source activate hvq
 ```
 
+Then run `pip install -e .` to avoid `Module name hvq not found` error.
+
 ## Run
 After activating the `conda` environment, just run the training file for the chosen dataset, e.g. for breakfast:
 ```bash
