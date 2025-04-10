@@ -62,9 +62,10 @@ The input of JSDist is normalized such that the sum of each histogram $H_m$ is o
 
 ### - Breakfast [[1]](#1)
 The features and annotations of the Breakfast dataset can be downloaded from 
-[link 1](https://mega.nz/#!O6wXlSTS!wcEoDT4Ctq5HRq_hV-aWeVF1_JB3cacQBQqOLjCIbc8) 
-or 
-[link 2](https://zenodo.org/record/3625992#.Xiv9jGhKhPY).
+[features](https://drive.google.com/file/d/1DbYnU2GBb68CxEt2I50QZm17KGYKNR1L/edit) 
+and 
+[ground-truth and mapping](https://drive.google.com/file/d/1RO8lrvLy4bVaxZ7C62R0jVQtclXibLXU/edit),
+as in [[5]](#5)
 
 ### - YouTube INRIA Instructional (YTI) [[2]](#2)
 - [Features](https://drive.google.com/file/d/1HyF3_bwWgz1QNgzLvN4J66TJVsQTYFTa/view)
@@ -147,6 +148,9 @@ Ben-Shabat, Y.; Yu, X.; Saleh, F.; Campbell, D.; RodriguezOpazo, C.; Li, H.; and
 
 <a id="4">[4]</a>
 Souri, Y.; Farha, Y.A.; Despinoy, F.; Francesca, G.; and Gall, J. Fifa: Fast inference approximation for action segmentation. In GCPR, 2021.
+
+<a id="5">[5]</a>
+Kukleva, A.; Kuehne, H.; Sener, F.; and Gall, J. Unsupervised learning of action classes with continuous temporal embedding. In CVPR 2019.
 
 ## License
 <a rel="license" href="http://creativecommons.org/licenses/by-nc/4.0/"><img alt="Creative Commons License" style="border-width:0" src="https://i.creativecommons.org/l/by-nc/4.0/88x31.png" /></a><br />This work is licensed under a <a rel="license" href="http://creativecommons.org/licenses/by-nc/4.0/">Creative Commons Attribution-NonCommercial 4.0 International License</a>.
