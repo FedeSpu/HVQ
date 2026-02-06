@@ -117,6 +117,14 @@ python ./BF_utils/bf_train.py
 ### - Evaluation
 To run and evaluate for every epoch with FIFA[[4]](#4) decoding and Hungarian Matching, set `opt.epochs=20` and `opt.vqt_epochs=1`. With the default combinations of parameter `opt.epochs=1, opt.vqt_epochs=20`, the model is trained and evaluated once at the end.
 
+### - Model Weights
+
+> **Warning**
+> Unsupervised Action Segmentation models can be highly unstable. The system architecture, randomness, and PyTorch version may yield results different from those reported in the paper.
+
+You can find the weights for the DoubleVQ models for every activity of the Breakfast dataset at this [Kaggle link](https://www.kaggle.com/models/fedecvg/hvq-breakfast-models/).
+**Note: FIFA decoder still needs to be trained**. The checkpoints were produced after the submission using a slightly different architecture; consequently, the results may differ slightly from those reported in the publication.
+
 ### - Classifier on top of HVQ predictions
 To have more stable predictions between epochs, it is suggested to set `opt.use_cls=True`. With this option, a classifier is trained on the embeddings produced by the HVQ model using the pseudo-labels as ground-truth. Paper's results are produced **WITHOUT** this option.
 
